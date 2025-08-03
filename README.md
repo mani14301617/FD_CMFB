@@ -49,6 +49,7 @@ This project implements a **Fully Differential Operational Transconductance Ampl
 - Layouts available for:
   - OTA core
   - CMFB circuitry
+<img width="770" height="676" alt="Screenshot 2025-04-22 142707" src="https://github.com/user-attachments/assets/2fb105e4-e741-4d00-837e-5ee6795960dc" />
 
 ---
 
