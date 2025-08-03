@@ -16,7 +16,7 @@ This project implements a **Fully Differential Operational Transconductance Ampl
 
 ---
 
-## 🔧 Design Parameters
+## 🔧 OTA Design Parameters
 
 | Parameter              | Value         |
 |------------------------|---------------|
