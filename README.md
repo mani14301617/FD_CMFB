@@ -1,7 +1,6 @@
 # Fully Differential Amplifier with Common-Mode Feedback (CMFB)
 
-This project implements a **Fully Differential Operational Transconductance Amplifier (OTA)** with integrated **Common-Mode Feedback (CMFB)** to stabilize the output common-mode voltage. The design includes circuit schematics, simulation results, and a common-centroid layout.
-
+This project implements a **Fully Differential Operational Transconductance Amplifier (OTA)** with integrated **Double Differential Common-Mode Feedback (CMFB)** to stabilize the output common-mode voltage. The design includes circuit schematics, simulation results, and a common-centroid layout optimized for matching
 ## 🧑‍💻 Contributors
 
 - Manikanta Krishnamurthy – 220102059  
@@ -11,9 +10,9 @@ This project implements a **Fully Differential Operational Transconductance Ampl
 
 ## 🧠 Key Concepts
 
-- **Fully Differential Amplifier**: Offers improved power supply rejection and noise immunity.
-- **CMFB (Common-Mode Feedback)**: Ensures that the output common-mode voltage stays within a desired range, critical for proper differential amplifier operation.
-- **OTA (Operational Transconductance Amplifier)**: Used in analog signal processing; output current is proportional to differential input voltage.
+- **Fully Differential Amplifier**: Offers improved power supply rejection, better linearity, and noise immunity.
+- **Double Differential CMFB**: A robust feedback technique that uses a second differential amplifier to sense and regulate the output common-mode level.
+- **OTA (Operational Transconductance Amplifier)**: An amplifier where the output current is controlled by the differential input voltage, widely used in analog signal processing.
 
 ---
 
@@ -49,6 +48,8 @@ This project implements a **Fully Differential Operational Transconductance Ampl
 - Layouts available for:
   - OTA core
   - CMFB circuitry
+<img width="703" height="624" alt="Screenshot 2025-04-03 162259" src="https://github.com/user-attachments/assets/d842c413-6d8f-4f68-b43e-c6b5e9e50c97" />
+
 <img width="770" height="676" alt="Screenshot 2025-04-22 142707" src="https://github.com/user-attachments/assets/2fb105e4-e741-4d00-837e-5ee6795960dc" />
 
 ---
